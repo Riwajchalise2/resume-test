@@ -13,40 +13,43 @@ sidebar:
 
     # Sidebar links
     email: hello@webjeda.com
-    phone: 012 345 6789
+    phone: False
     citizenship:
     website: blog.webjeda.com #do not add http://
     linkedin: alandoe
-    xing: alandoe
+    xing: False
     github: sharu725
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: False #'@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: False
 
-    languages:
-      - idiom: English
-        level: Native
+    # Uncomment Upto line 39 if you want to add language
+    # languages: 
+    #   - idiom: English
+    #     level: Native
 
-      - idiom: French
-        level: Professional
+    #   - idiom: French
+    #     level: Professional
 
-      - idiom: Spanish
-        level: Professional
+    #   - idiom: Spanish
+    #     level: Professional
 
-    interests:
-      - item: Climbing
-        link:
+    # Uncomment Upto line 52 if you want to add interest
 
-      - item: Snowboarding
-        link:
+    # interests:
+    #   - item: Climbing
+    #     link:
 
-      - item: Cooking
-        link:
+    #   - item: Snowboarding
+    #     link:
+
+    #   - item: Cooking
+    #     link:
 
 career-profile:
     title: Career Profile
@@ -57,29 +60,29 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+# education:
+#     - degree: MSc in Computer Science
+#       university: University of London
+#       time: 2011 - 2012
+#       details: |
+#         Describe your study here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#         sociis natoque penatibus et magnis dis parturient montes, nascetur
+#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#         pretium quis, sem.
+#           - Bullet point
+#           - Bullet point
+#     - degree: BSc in Applied Mathematics
+#       university: Bristol University
+#       time: 2007 - 2011
+#       details: |
+#         Describe your study here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#         sociis natoque penatibus et magnis dis parturient montes, nascetur
+#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#         pretium quis, sem.
+#           - Bullet point
+#           - Bullet point
 experiences:
     - role: Lead Developer
       time: 2015 - Present
